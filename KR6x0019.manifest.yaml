@@ -1,0 +1,30 @@
+canonical_identifier: bkk:krp/KR6x0019/v1
+canonical_location: https://kanripo.org/bkk/KR6x0019/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 無礙解道
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/N/N43/N43n0019.xml
+    old_id: N43n0019
+  edition:
+    short: bkk
+editions:
+- short: 南傳
+  label: 南傳
+  source_xml_id: wit.orig
+- short: 'N'
+assets:
+  parts:
+  - {seq: 1, filename: KR6x0019_001.yaml, hash: 'sha256:bf7ce132a3799dbe1e6051b925f8943c44cb7be8ba21d180b24e0b9379991719'}
+  - {seq: 2, filename: KR6x0019_002.yaml, hash: 'sha256:f36aa789405b5f750973b2f800eb7cb89a8e532b75130cde38c07c898e39f5bf'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6x0019_001.markers.yaml, hash: 'sha256:adb2946be86aace8a06f92beb46e5397fa00299ab3d6852a323b37ad979eab94'}
+  - {seq: 2, role: markers, filename: assets/KR6x0019_002.markers.yaml, hash: 'sha256:81666681d5cc2eceb4170e9db9c49f8b5c95231f48838d4a2fafb49a507e0e3c'}
+table_of_contents: []
+hash: sha256:5c4b19cc36da52fe8fd0e81813577e6f5fcc3fd60b9291f754f6240952353a4f
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
